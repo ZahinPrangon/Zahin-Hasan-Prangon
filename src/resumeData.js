@@ -19,18 +19,13 @@ let resumeData = {
       name: "twitter",
       url: "https://twitter.com/Zahin431",
       className: "fa fa-twitter",
-    },
-    {
-      name: "facebook",
-      url: "https://www.facebook.com/prangon.xahin",
-      className: "fa fa-facebook",
-    },
+    }
   ],
   aboutme:
-    "I am from Bangladesh and moved to St Johns, NL on January 2017 in order to pursue my bachelors degree in Computer Science with a Minor in Business. I am extremely passionate about web and cross-platform mobile application development.",
+    "Currently working as a Software Engineer at Motorola Solutions with past experience from IBM, Memorial University of Newfoundland and University of Victoria(Bikemaps.org).Some of my main interests include Full-Stack development, Computer Security and Data Mining. In my free time, I like working on personal projects, learning about new technologies and keeping up to date with the latest trends in the tech sector. \n\n I like working on team projects and getting to know new people, as it gives me the opportunity to learn from other’s experience and also create valuable networks along the way. So feel free to send me a message about any interesting project collaborations or any interesting idea you might wanna discuss. Some of my specialties include software engineering (Python, Java, C#, C++), Full-Stack development (JavaScript, NodeJS, React, Angular, Django, ASP.NET), Databases (SQL, PostgreSQL), Mobile App Development (React Native) and much more.",
   address: "St John's, Newfoundland and Labredor, Canada",
   website: "",
-  email: "zhprangon@mun.ca",
+  email: "zahinhasan43@gmail.com",
   education: [
     {
       UniversityName: "Memorial University of Newfoundland",
@@ -42,10 +37,30 @@ let resumeData = {
   ],
   work: [
     {
+      CompanyName: "Motorola Solutions",
+      specialization: "Software Engineer",
+      start: "September, 2021",
+      end: "Present",
+      tasks: [
+        "Using Nodejs to implement API Gateway for Avigilon Control Server and Client.",
+        "Using Gulp to implement and automate streaming task runners for build processes"
+      ],   
+    },
+    {
+      CompanyName: "Varian Medical Systems",
+      specialization: "Software Developer",
+      start: "May, 2021",
+      end: "September, 2021",
+      tasks: [
+        "Added UI features on client side of the application using Angular/Typescript.",
+        "Added and refactored web endpoints on the server side of the application using Micronaut/Java."
+      ],
+    },
+    {
       CompanyName: "Bikemaps.org",
       specialization: "Full Stack Software Developer",
       start: "December, 2020",
-      end: "present",
+      end: "July, 2021",
       tasks: [
         "Achieved 18% increase in loading speed by upgrading and optimizing current web application to use Python 3, Django 3. ",
         "Developing key features for the Bikemaps web application using Django, PostgreSQL, Leaftlet.",

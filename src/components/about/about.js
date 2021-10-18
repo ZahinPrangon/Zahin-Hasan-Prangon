@@ -6,7 +6,7 @@ export default class About extends Component {
       <section id="about">
          <div className="row">
 
-            <div className="nine columns main-col">
+            <div className="12 columns main-col">
 
                <h2>About Me</h2>
                <p>

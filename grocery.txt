@@ -1,0 +1,18 @@
+const convertObject = (input) => {
+    let output = {}
+    let choices = [];
+    output.department = input.department;
+
+    input.bins.forEach((value) => {
+        let obj = {}
+        if (value.type === 'bananas' || value.type === 'apples' || value.type === 'carrots') {
+            obj.kind = value.type;
+            obj.priceDisplayLabel = `$${value.price} per ${value.unit}`;
+            obj.available = value.quantity;
+            choices.push(obj)
+        }
+        
+    })
+    output.choices = choices;
+    return output;
+}

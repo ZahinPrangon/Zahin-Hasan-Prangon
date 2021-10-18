@@ -66,12 +66,3 @@ export default class Resume extends Component {
     );
   }
 }
-
-// (                      <p className="info" style={{ fontWeight: "bold" }}>
-//   Tasks
-// </p>
-// <p className="bullet">
-//   {item.tasks.map((item) => {
-//     return <p>&bull; {item}</p>;
-//   })}
-// </p>)
