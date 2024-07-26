@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Zahin-Hasan-Prangon/precache-manifest.80ab173818ed0453b387044d5922051c.js"
+  "/Zahin-Hasan-Prangon/precache-manifest.020b70b92175c1a651db02d6f39ea1d1.js"
 );
 
 self.addEventListener('message', (event) => {
